@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 15px 16px;
+  position: absolute;
+}
+
+.container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 15px;
+  margin-left: 12px;
+}
+
+.container .left, .container .right {
+  display: flex;
+  align-items: center;
+}
+
+.container .right .innerLeft {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.container .right .innerRight :global(.primary) {
+  margin-left: 10px;
+}

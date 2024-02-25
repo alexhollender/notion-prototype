@@ -1,0 +1,61 @@
+.main {
+  width: 88vw;
+  max-width: 1392px;
+  margin: 0 auto;
+}
+
+.main section {
+  margin-bottom: 50px;
+  padding-top: 100px;
+}
+
+.main img {
+  width: 100%;
+  height: auto;
+}
+
+section.overview {
+  padding-top: 140px;
+}
+
+.overview > div {
+  margin-bottom: 100px;
+}
+
+section.faqs {
+  margin-bottom: 300px;
+}
+
+.faqs div:first-child {
+  margin-bottom: 100px;
+
+  img {
+    max-width: 240px;
+    margin: 0 auto;
+  }
+}
+
+// Floating TOC
+
+.nav {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  padding: 12px 22px;
+  border-radius: 100px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px -1px rgba(0,0,0,0.2);
+}
+
+.nav a {
+  padding: 6px 16px;
+  border-radius: 20px;
+}
+
+.nav a.active {
+  background-color: rgba(0, 0, 0, .04);
+}
