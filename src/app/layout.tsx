@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from '@vercel/analytics/react';
 import Header from '@/components/header/Header';
 import Image from "next/image";
 import logo from "../../public/images/logo.svg";
@@ -28,6 +29,7 @@ export default function RootLayout({
           />
           <h3>This prototype is currently only configured for screens wider than 1000px</h3>
         </div>
+        <Analytics />
       </body>
     </html>
   );
